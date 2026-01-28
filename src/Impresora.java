@@ -14,10 +14,8 @@ public class Impresora {
     }
 
     public int addToner(int nivelToner){
-        if(nivelToner > 100 || nivelToner < 0) {
-            System.out.println("invalido");
+        if(nivelToner > 100 || nivelToner < 0)
             return -1;
-        }
         return nivelToner;
     }
 
